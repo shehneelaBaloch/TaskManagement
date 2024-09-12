@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sansita Swashed", cursive;
+  background: #FFEEEE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.center {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.center h1 {
+  font-size: 2em;
+  border-left: 5px solid dodgerblue;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.inputbox {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.inputbox input[type="text"],
+.inputbox input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none;
+}
+
+.inputbox input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: dodgerblue;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.inputbox input[type="submit"]:hover {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+
+.inputbox span {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  font-size: 0.85em;
+  color: #000;
+}
+
+.task-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.task-container h4 {
+  margin-bottom: 5px;
+}
+
+.task-container p {
+  margin: 0;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 0.875em;
+}
