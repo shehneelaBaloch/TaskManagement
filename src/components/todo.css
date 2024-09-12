@@ -95,3 +95,12 @@ body {
   padding: 5px 10px;
   font-size: 0.875em;
 }
+/* Existing styles... */
+
+@media (max-width: 768px) { /* Adjust as needed for your breakpoint */
+ 
+
+  .task-buttons button {
+    margin-bottom: 10px; /* Space below each button */
+  }
+}
