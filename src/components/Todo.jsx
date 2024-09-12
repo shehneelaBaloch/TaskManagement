@@ -107,7 +107,7 @@ const Todo = () => {
         <Row className="mt-4">
           <Col>
             <h2 className="text-center">To-Do List</h2>
-            <div className="mb-4 text-center">
+            <div className="mb-4 text-center   task-buttons">
               <Button
                 variant="primary"
                 onClick={() => filterItems("all")}
